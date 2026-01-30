@@ -3,6 +3,7 @@
 
 text = "Hello World From Python"
 no_spaces = ""
+
 for char in text:
     if char != " ":
         no_spaces += char
