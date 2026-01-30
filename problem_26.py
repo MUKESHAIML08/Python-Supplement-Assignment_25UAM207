@@ -6,5 +6,5 @@ def add_item(lst, item):
     return lst
 
 my_list = [1, 2, 3]
-add_item(my_list, 4)
+my_list = add_item(my_list, 4)
 print(f"List after adding: {my_list}")
