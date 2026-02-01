@@ -1,6 +1,7 @@
 # Problem 57: Find LCM of two numbers
 # Find and fix the error
 
+
 def gcd(a, b):
     while b:
         a, b = b, a % b

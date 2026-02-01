@@ -1,6 +1,7 @@
 # Problem 58: Binary search implementation
 # Find and fix the error
 
+
 def binary_search(arr, target):
     left, right = 0, len(arr) - 1
     while left <= right:

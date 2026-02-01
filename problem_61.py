@@ -10,4 +10,5 @@ def find_pairs(arr, target):
     return pairs
 
 numbers = [1, 2, 3, 4, 5]
+
 print(f"Pairs with sum 5: {find_pairs(numbers, 5)}")
