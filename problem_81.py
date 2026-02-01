@@ -14,4 +14,5 @@ def balanced_brackets(s):
     return len(stack) == 0
 
 expr = "{[()]}"
+
 print(f"Balanced: {balanced_brackets(expr)}")
