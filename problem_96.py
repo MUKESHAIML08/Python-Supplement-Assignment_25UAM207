@@ -11,4 +11,5 @@ def two_sum(nums, target):
     return []
 
 numbers = [2, 7, 11, 15]
+
 print(f"Indices: {two_sum(numbers, 9)}")

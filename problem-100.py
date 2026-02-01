@@ -1,6 +1,7 @@
 # Problem 100: Calculate average of nested lists
 # Find and fix the error
 
+
 def average_nested(nested_list):
     total = 0
     count = 0
