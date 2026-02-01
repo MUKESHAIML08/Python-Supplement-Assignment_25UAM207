@@ -1,6 +1,7 @@
 # Problem 71: Transpose a matrix
 # Find and fix the error
 
+
 def transpose(matrix):
     rows = len(matrix)
     cols = len(matrix[0])

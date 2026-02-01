@@ -15,4 +15,5 @@ def first_non_repeating(text):
     return None
 
 word = "programming"
+
 print(f"First non-repeating: {first_non_repeating(word)}")

@@ -2,11 +2,7 @@
 # Find and fix the error
 
 def string_similarity(str1, str2):
-    common = 0
-    for char in str1:
-        if char in str2:
-            common += 1
-    return common
+    return len(set(str1)& set(str2))
 
 s1 = "hello"
 s2 = "world"

@@ -9,4 +9,5 @@ p = 1000
 r = 5
 t = 2
 n = 4
+
 print(f"Compound Interest: {compound_interest(p, r, t, n)}")
