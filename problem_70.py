@@ -3,7 +3,7 @@
 
 def find_primes(n):
     primes = []
-    for num in range(2, n):
+    for num in range(2, n + 1):
         is_prime = True
         for i in range(2, num):
             if num % i == 0:
